@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Practica 4/alta_usuario.html&apos; to &apos;alta_usuario.php&apos;" description="Rename resource &apos;alta_usuario.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="alta_usuario.html" name="alta_usuario.php" stamp="1520340817506" updateReferences="true"/>
+</session>

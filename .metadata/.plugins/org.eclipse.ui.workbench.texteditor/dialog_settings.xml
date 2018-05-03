@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="css" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="css"/>
+			<item value="gestionar"/>
+			<item value="onsubmit=&quot;return validateForm()&quot;"/>
+			<item value="cone"/>
+			<item value="crear"/>
+			<item value="if (isset($_SESSION[&quot;errores&quot;]))&#x0D;&#x0A;&#x09;&#x09;$errores = $_SESSION[&quot;errores&quot;];"/>
+			<item value="session_"/>
+			<item value="sta"/>
+		</list>
+	</section>
+</section>

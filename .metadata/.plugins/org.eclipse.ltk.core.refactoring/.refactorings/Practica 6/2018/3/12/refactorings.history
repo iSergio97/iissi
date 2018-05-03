@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;about.php&apos; to &apos;Material para alumnos - Parte 1&apos;" description="Move &apos;about.php&apos; to &apos;Material para alumnos - Parte 1&apos;" destination="Material para alumnos - Parte 1" element1="Material para alumnos - Parte 2/about.php" element2="Material para alumnos - Parte 2/consulta_libros.php" element3="Material para alumnos - Parte 2/gestionarLibros.php" element4="Material para alumnos - Parte 2/index.php" element5="Material para alumnos - Parte 2/login.php" element6="Material para alumnos - Parte 2/logout.php" element7="Material para alumnos - Parte 2/menu.php" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="7" stamp="1521551788033" updateReferences="true"/>
+</session>

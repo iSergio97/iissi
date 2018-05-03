@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Practica9-CSS/images/Jamon-iberico-de-bellota-bellotaskate-1.jpg&apos; to &apos;fondo.jpg&apos;" description="Rename resource &apos;Jamon-iberico-de-bellota-bellotaskate-1.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="images/Jamon-iberico-de-bellota-bellotaskate-1.jpg" name="fondo.jpg" stamp="1524571535707" updateReferences="true"/>
+</session>

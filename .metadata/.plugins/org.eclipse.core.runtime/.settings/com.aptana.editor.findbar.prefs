@@ -1,0 +1,2 @@
+FIND_BAR_DECORATOR_FIND_ENTRIES=\#\r\n\#Thu Apr 26 12\:47\:47 CEST 2018\r\n8\=clos\r\n7\=sta\r\n6\=session_\r\n5\=if (isset($_SESSION["errores"]))\\r\\n\\t\\t$errores \\\= $_SESSION["errores"];\r\n4\=crear\r\n3\=cone\r\n2\=onsubmit\\\="return validateForm()"\r\n1\=gestionar\r\n0\=css\r\n
+eclipse.preferences.version=1

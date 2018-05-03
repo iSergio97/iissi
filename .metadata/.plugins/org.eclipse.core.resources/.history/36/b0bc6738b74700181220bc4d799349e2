@@ -1,0 +1,111 @@
+@import "errores.css";
+
+
+/* Mensajes de Error */
+div.error, div.excepcion {
+	color: red;	
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* Ejercicio 1 */
+body {
+	margin-left: 2em; 
+}
+
+/* Ejercicio 2 */
+
+header{
+	border-bottom: 5px solid brown;
+	color: green;
+}
+
+footer{
+	border-top: 5px solid brown;
+	text-align: center;
+	clear: both;
+}
+/*
+ * .cabecera {
+ * 	border-bottom: 5px solid brown;
+ * }
+ */
+
+/* Ejercicio 3 */
+
+header h1 {
+	font-variant: small-caps;
+	color: brown;
+	display: inline;
+}
+
+/* Ejercicio 4 */
+
+/* lighter */
+header h2 {
+	font-weight: lighter;
+	font-style: italic;
+}
+
+
+/* Ejercicio 5 */
+
+.enlaces {
+	float:left;
+	width: 25%;  /* Los enlaces con los n�meros de p�gina ocupar�n s�lo el 25% de ancho y tantas l�neas como sea necesario*/
+}
+
+.datos_libro {
+	float: left;
+	width: 75%;
+}
+
+.editar_fila {
+	border: 0;
+	padding: 0;
+	margin: 3px;
+}
+
+#botones_fila {
+	float: right;
+	width: 25%;
+}
+
+.titulo{
+	font-size: 1.17em;
+	font-variant: small-caps; /* Letras versales */	
+}
+/* Ejercicio 6 */
+
+
+.libro{
+	clear: both;
+	border-bottom:2px solid red;  /* tlbr no tiene ning�n valor */
+}
+
+.strongpass {
+	background-color: green
+}
+
+.middlepass {
+	background-color: yellow
+}
+
+.weakpass {
+	background-color: red
+}
+
+.nanpass {
+	background-color: lightyellow
+}
+
+
+/*
+ * 
+ * Mi mierda
+ */
+ body {
+background-image:  https://imgur.com/pAX023M;
+float: center;
+}
