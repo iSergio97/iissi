@@ -1,0 +1,24 @@
+
+/* Mensajes de Error */
+.error, div.excepcion {
+	color: red;	
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+
+.strongpass {
+	background-color: green
+}
+
+.middlepass {
+	background-color: yellow
+}
+
+.weakpass {
+	background-color: red
+}
+
+.nanpass {
+	background-color: lightyellow
+}

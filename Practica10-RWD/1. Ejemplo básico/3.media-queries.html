@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			* {
+					box-sizing: border-box;
+			}
+				
+			/* Para smartphones: */
+			[class*="col-"] {
+				float:left;
+				width: 100%;
+			}
+			
+			/* Para Tablets: */
+			@media only screen and (min-width: 600px) {
+				.col-tab-1 {width: 10%;}
+				.col-tab-2 {width: 20%;}
+				.col-tab-3 {width: 30%;}
+				.col-tab-4 {width: 40%;}
+				.col-tab-5 {width: 50%;}
+				.col-tab-6 {width: 60%;}
+				.col-tab-7 {width: 70%;}
+				.col-tab-8 {width: 80%;}
+				.col-tab-9 {width: 90%;}
+				.col-tab-10 {width: 100%;}
+			}
+			
+			/* Para escritorio: */
+			@media only screen and (min-width: 768px) {
+				.col-1 {width: 10%;}
+				.col-2 {width: 20%;}
+				.col-3 {width: 30%;}
+				.col-4 {width: 40%;}
+				.col-5 {width: 50%;}
+				.col-6 {width: 60%;}
+				.col-7 {width: 70%;}
+				.col-8 {width: 80%;}
+				.col-9 {width: 90%;}
+				.col-10 {width: 100%;}
+			}
+			
+			@media only screen and (orientation: landscape) {
+				body {
+					color: green;
+				}
+			}
+	
+	
+			.columnas::after {
+				content: "";
+				clear: both;
+				display: block;
+			}
+			
+	
+			html {
+				font-family: Geneva, Arial, Helvetica, sans-serif;
+			}
+			
+			header {
+				background-color: #66FF66;
+				color: #FFFFFF;
+				padding: 15px;
+			}
+			
+			h1, p{
+				text-align:center;
+			}
+			
+			.menu ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.menu li {
+				padding: 10px;
+				margin-bottom: 10px;
+				background-color: #CCCCCC;  
+				color: #ffffff;
+			}
+			
+			.menu li:hover {
+				background-color: #339900;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>RESPONSIVE WEB DESIGN</h1>
+		</header>
+		
+		<div class="columnas">
+			<div class="col-2 col-tab-4 menu">
+				<ul>
+					<li>A </li>
+					<li>B</li>
+					<li>C</li>
+					<li>D</li>
+				</ul>
+			</div>
+			<div class="col-6 col-tab-6">
+				<h1>Grid View</h1>
+				<p>
+					Grid-View es una forma de gestionar el espacio de nuestra página web mediante columnas de 
+					un tamaño porcentual al total de la pantalla.
+				</p>
+				<p>
+					Acerca o aleja el zoom para ver como cambia de tamaño.
+				</p>
+			</div>
+			<div class="col-2 col-tab-10">
+				<p>
+					Media Queries es un módulo de CSS3 que permite adaptar la representación del contenido
+					 según las características del dispositivo, como la resolución de pantalla.	
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,55 @@
+@import "biblio.css";
+
+.topnav {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav li a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px 0px 0px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.topnav li a:hover {background-color: green}
+.topnav li a:visited {background-color: blue}
+.icon {display: none;}
+
+@media screen and (max-width:680px) {
+ul.topnav li:not(:first-child) {display: none;}
+ul.topnav li.icon {
+float: right;
+display: inline-block;
+}
+.autor{
+display: none;
+}
+}
+
+@media screen and (max-width:680px) {
+ul.topnav.responsive {position: relative;}
+ul.topnav.responsive li.icon {
+position: absolute;
+right: 0;
+top: 0;
+}
+ul.topnav.responsive li {
+float: none;
+display: inline;
+}
+ul.topnav.responsive li a {
+display: block;
+text-align: left;
+}
+}

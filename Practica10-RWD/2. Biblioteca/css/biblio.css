@@ -1,0 +1,76 @@
+
+/* Mensajes de Error */
+div.error, div.excepcion {
+	color: red;
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+
+body{
+	margin-left:2em;
+}
+
+header{
+	display:block;
+	color: green;
+	border-bottom:5px solid brown;
+}
+
+
+footer{
+	border-top: 5px solid brown;
+	text-align:center;
+	clear: both;
+}
+
+header h1  {
+
+	display: inline;
+	font-variant: small-caps;
+	color: brown;
+}
+
+
+header h2  {
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.enlaces {
+	float:left;
+	width: 25%;  /* Los enlaces con los n�meros de p�gina ocupar�n s�lo el 25% de ancho y tantas l�neas como sea necesario*/
+}
+
+
+.datos_libro{
+	float: left; /* Los datos del libro siempre aparecer�n ajustados a la izquierda */
+	width: 75%;
+}
+
+#botones_fila {
+	float:right;
+	width: 25%;
+}
+
+
+.editar_fila{
+	border:0px;
+	margin:3px;
+	padding:0px;
+	float: right;	/* Los botones de acci�n de cada libro aparecer�n en la parte derecha */
+
+}
+
+
+.titulo{
+	font-size: 1.17em;
+	font-variant: small-caps; /* Letras versales */
+}
+
+
+.libro{
+	clear: both;
+	border-bottom:2px solid red;  /* tlbr no tiene ning�n valor */
+}
+

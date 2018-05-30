@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			
+			.col-1 {width: 10%;}
+			.col-2 {width: 20%;}
+			.col-3 {width: 30%;}
+			.col-4 {width: 40%;}
+			.col-5 {width: 50%;}
+			.col-6 {width: 60%;}
+			.col-7 {width: 70%;}
+			.col-8 {width: 80%;}
+			.col-9 {width: 90%;}
+			.col-10 {width: 100%;}
+			
+			.columnas::after {
+				content: "";
+				clear: both;
+				display: block;
+			}
+			
+			[class*="col-"] {
+				float: left;
+				padding: 15px;
+			}
+			
+			html {
+				font-family: Geneva, Arial, Helvetica, sans-serif;
+			}
+			
+			header {
+				background-color: #66FF66;
+				color: #FFFFFF;
+				padding: 15px;
+			}
+			
+			h1, p{
+				text-align:center;
+			}
+			
+			.menu ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.menu li {
+				padding: 10px;
+				margin-bottom: 10px;
+				background-color: #CCCCCC;  
+				color: #ffffff;
+				
+			}
+			
+			.menu li:hover {
+				background-color: #339900;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>RESPONSIVE WEB DESIGN</h1>
+		</header>
+		
+		<div class="columnas">
+			<div class="col-2 menu">
+				<ul>
+					<li>A </li>
+					<li>B</li>
+					<li>C</li>
+					<li>D</li>
+				</ul>
+			</div>
+			<div class="col-8">
+				<h1>Grid View</h1>
+				<p>
+					Grid-View es una forma de gestionar el espacio de nuestra página web mediante columnas de 
+					un tamaño porcentual al total de la pantalla.
+				</p>
+				<p>
+					Acerca o aleja el zoom para ver como cambia de tamaño.
+				</p>	
+			</div>
+		</div>
+	</body>
+</html>
+

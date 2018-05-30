@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hola Mundo con Javascript</title>
+
+    <script>
+	   function hola() {
+       return "<h2>Más saludos!  </h2>"
+     }
+    </script>
+</head>
+<body>
+    <main>
+        <div id="hola">aaaa</div>
+
+        <button type="button"
+                onclick="document.getElementById('hola').innerHTML=hola()+ ' ' + Date()">
+            ¡Hola Mundo!
+        </button>
+    </main>
+
+</body>
+</html>
